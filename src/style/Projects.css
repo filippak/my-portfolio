@@ -1,0 +1,68 @@
+.Projects {
+  padding-top: 10%;
+  height: 100%;
+}
+
+.Projects h1{
+  padding-bottom: 0;
+}
+
+.container-fluid {
+  height: 100%;
+}
+
+.projects-container {
+  height: 100%;
+  padding: 7%;
+}
+
+.break-container {
+  background-color: #B1CDCD;
+  color: #056473;
+}
+
+.project-image {
+    display: inline-block;
+    width: 500px;
+    box-shadow: 15px 15px 10px #868D91;
+}
+
+.btn-project {
+  border-color: #1a1a1a;
+  color: #1a1a1a;
+  background-color: white;
+}
+
+.project-row {
+  padding-bottom: 10%;
+}
+
+
+.project-description {
+  text-align: left;
+}
+
+.project-description h6 {
+  font-weight: lighter;
+}
+
+.proj-img {
+  padding-right: 3em;
+  width: 80%;
+}
+
+.btn-to-art {
+    border-radius: 40px;
+    padding: 0.5em;
+    padding-left: 1em;
+    padding-right: 1em;
+    border-color: #056473;
+    color: #056473;
+    text-decoration: none;
+
+    background-color: Transparent;
+    font-size: 24px;
+    font-family: lato;
+    font-weight: 200;
+    cursor: pointer;
+}

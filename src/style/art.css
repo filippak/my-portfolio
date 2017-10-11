@@ -1,0 +1,32 @@
+.Art {
+  padding-top: 10%;
+}
+
+.Art h2, h4, h5{
+  text-align: left;
+}
+
+.Art h2{
+  padding-top: 1em;
+}
+
+.Art h4, h5{
+  font-style: italic;
+}
+
+.container-artwork {
+  padding-bottom: 3em;
+}
+
+.art-image {
+  max-width: 100%;
+
+}
+
+.art-column {
+  padding: 0;
+}
+
+.art-description {
+  padding-left: 1em;
+}

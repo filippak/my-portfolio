@@ -1,0 +1,55 @@
+.header {
+  width: 100%;
+}
+
+.list-element-header li {
+  display: inline-block;
+  padding: 0.5em;
+  float: right;
+}
+
+.header-elems {
+  width: 100%;
+  float: right;
+}
+
+.logo-image {
+  max-height: 50px;
+  float: left;
+}
+
+.list-element-header {
+  margin: 0;
+  padding-left: 0;
+}
+
+.navbar-header {
+  background-color: white;
+}
+
+.navbar-fixed-top {
+  position: fixed;
+  right: 0;
+  left: 0;
+  z-index: 1030;
+}
+
+.nav-link {
+  color: #056473;
+}
+
+.btn-header {
+  color: #056473;
+  border-color: #056473;
+  background-color: Transparent;
+  font-family: lato;
+  font-weight: 200;
+  border-radius: 30px;
+  cursor: pointer;
+}
+
+.btn-header:hover {
+  color: white;
+  background-color: #056473;
+  border-color: #056473;
+}

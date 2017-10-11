@@ -1,0 +1,156 @@
+.Home {
+  clear:right;
+  padding-top: 70px;
+}
+
+.header-image {
+  min-width: 100%;
+  z-index: 1;
+  max-width: 100%;
+}
+
+.overlay {
+  min-width: 100%;
+  max-height: 100%;
+  display: inline-block;
+  background-color: rgba(0,0,0,0.5);
+  z-index: 2;
+  position: absolute;
+  top: 72;
+  right: 0;
+}
+
+.overlay-text {
+  color: white;
+}
+
+.overlay-textbox h4{
+  padding-bottom: 1em;
+  max-width: 100%;
+}
+
+.overlay-textbox h1{
+  padding-bottom: 20px;
+  margin: 0;
+  white-space: nowrap;
+  overflow: hidden;
+  position:relative;
+}
+
+.overlay-textbox h2{
+  padding-bottom: 0;
+}
+
+.overlay-textbox {
+  padding-top: 15%;
+  display:inline-block;
+  padding-bottom: 30%;
+}
+
+
+.btn-sign {
+  border-radius: 40px;
+  padding: 0.5em;
+  padding-left: 1em;
+  padding-right: 1em;
+  border-color: white;
+  color: white;
+  text-decoration: none;
+
+  background-color: Transparent;
+  font-size: 32px;
+  font-family: lato;
+  font-weight: 200;
+  cursor: pointer;
+}
+
+.btn-sign a {
+  text-decoration: none;
+  color: white;
+}
+
+.btn-sign:hover {
+  background-color: #056473;
+  border-color: #056473;
+  color:white;
+}
+
+
+.header-container {
+  padding: 0;
+  height: 100%;
+  width: 100%;
+}
+
+.my-picture {
+  width: 540px;
+  display: inline-block;
+}
+
+.my-picture img {
+  align: top;
+  overflow: hidden;
+}
+
+.profile-pic {
+  width:540px;
+}
+
+.hello {
+  color: #FFDD54;
+  padding-bottom: 20px;
+}
+
+.about-me {
+  padding: 2em;
+  padding-left: 10%;
+  padding-right: 10%;
+}
+
+.about-me img {
+  width: 300px;
+}
+
+.about-me-new img{
+  max-width: 100%;
+}
+
+.about-me-new {
+  padding-top: 5%;
+}
+
+.button-div {
+  padding: 3em;
+}
+
+.about-me-row {
+  padding: 3em;
+}
+
+.about-me-text {
+  text-align: left;
+}
+
+.about-me-text h6{
+  font-weight: lighter;
+}
+
+.right-text {
+  float: right;
+}
+
+.btn-to-projects {
+  border-radius: 40px;
+  padding: 0.5em;
+  padding-left: 1em;
+  padding-right: 1em;
+  border-color: #056473;
+  color: #056473;
+  text-decoration: none;
+
+  background-color: Transparent;
+  font-size: 32px;
+  font-family: lato;
+  font-weight: 200;
+  cursor: pointer;
+}
