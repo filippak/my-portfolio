@@ -4,7 +4,6 @@ import './style/art.css';
 
 const Art = () => (
   <div className="Art">
-  <h1> Artwork and designs </h1>
   <div className="container-fluid container-artwork">
   <div className="art-description">
     <h2> Cell </h2>

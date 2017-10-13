@@ -4,14 +4,24 @@ import './style/Projects.css';
 
 const Projects = () => (
   <div className="Projects">
-    <h1> Projects </h1>
+
     <div className="container-fluid projects-container">
+    <div className="project-header-text">
+      <h2> Sign Along </h2>
+      <h3>Connecting the deaf community, event networks and interpretes for a richer live experience.</h3>
+    </div>
       <div className="row project-row">
         <div className="col-md-6 project-description">
-        <h2> Sign Along </h2>
-           <h6>Connecting the deaf community, event networks and interpretes for a richer live experience.</h6>
-           <h6>iOS app developed in 10 weeks</h6>
-           <h6>Skills Used: Swift, Sketch, User research and testing </h6>
+        <div className="row info-row">
+          <div className="col-md-6 timeline-box">
+            <h4> Timeline </h4>
+              <h6>Group project Jan-March 2017</h6>
+          </div>
+          <div className="col-md-6">
+            <h4> Skills used </h4>
+            <h6>Swift, Sketch, User research and testing </h6>
+          </div>
+        </div>
         </div>
           <div className="col-md-6">
             <img className="img-responsive project-image" src={require('./icons/sign-along.png')} />
@@ -19,13 +29,24 @@ const Projects = () => (
       </div>
     </div>
 
-    <div className="container-fluid projects-container break-container">
+    <div className="container-fluid projects-container">
+    <div className="project-header-text">
+      <h2> OpenMind </h2>
+      <h3>Incentivize diverse news consumption</h3>
+    </div>
       <div className="row project-row">
         <div className="col-md-6 project-description">
-        <h2> OpenMind </h2>
-           <h6>Incentivize diverse news consumption </h6>
-           <h6>Webapp developed in 2 weeks </h6>
-           <h6>Skills Used: React, Javascript, Sketch </h6>
+        <div className="row info-row">
+          <div className="col-md-6 timeline-box">
+            <h4> Timeline </h4>
+              <h6> User reseach project April-June 2017 </h6>
+              <h6>Final webapp developed in 2 weeks </h6>
+          </div>
+          <div className="col-md-6">
+            <h4> Skills used </h4>
+            <h6>React, Javascript, Sketch</h6>
+          </div>
+        </div>
         </div>
           <div className="col-md-6">
             <img className="img-responsive project-image" src={require('./icons/openmind-pitch.png')} />
@@ -34,40 +55,60 @@ const Projects = () => (
     </div>
 
     <div className="container-fluid projects-container">
-      <div className="row project-row">
-        <div className="col-md-6 project-description">
-        <h2> Office Pac </h2>
-           <h6>Creating a brave space through a shared, interactive display</h6>
-           <h6>User research project </h6>
-           <h6>Skills Used: User research, Design thinking, Sketch </h6>
-        </div>
-          <div className="col-md-6 proj-img">
-            <img className="img-responsive project-image" src={require('./icons/office-pac.png')} />
-          </div>
-      </div>
+    <div className="project-header-text">
+      <h2> Checklight </h2>
+      <h3>Providing mechanical help for truckers on the road</h3>
     </div>
-
-    <div className="container-fluid projects-container break-container">
       <div className="row project-row">
         <div className="col-md-6 project-description">
-        <h2> Checklight </h2>
-           <h6>Providing mechanical help for truckers on the road </h6>
-           <h6>Startup idea by a friend that Im helping to implement </h6>
-           <h6>Skills Used: React, Javascript, Sketch </h6>
+        <div className="row info-row">
+          <div className="col-md-6 timeline-box">
+            <h4> Timeline </h4>
+              <h6>Starup idea by a friend that Im helping to implement</h6>
+              <h6> Fall 2017 </h6>
+          </div>
+          <div className="col-md-6">
+            <h4> Skills used </h4>
+            <h6>React, Javascript, Sketch</h6>
+          </div>
+        </div>
         </div>
           <div className="col-md-6">
             <img className="img-responsive project-image" src={require('./icons/checklight.png')} />
           </div>
       </div>
     </div>
-    <div className="container-fluid">
-    <div className="row">
-      <div className="col-md-12 button-div">
-      <Link to='/artwork'> <button className="btn btn-default btn-to-projects">View artwork</button> </Link>
+
+    <div className="container-fluid projects-container last-project">
+    <div className="project-header-text">
+      <h2> Office Pac </h2>
+      <h3>Creating a brave space through a shared, interactive display</h3>
+    </div>
+      <div className="row project-row">
+        <div className="col-md-6 project-description">
+        <div className="row info-row">
+          <div className="col-md-6 timeline-box">
+            <h4> Timeline </h4>
+              <h6>User research project April - June 2017</h6>
+          </div>
+          <div className="col-md-6">
+            <h4> Skills used </h4>
+            <h6>Sketch, User research, Design thinking</h6>
+          </div>
+        </div>
+        </div>
+          <div className="col-md-6">
+            <img className="img-responsive project-image" src={require('./icons/office-pac.png')} />
+          </div>
       </div>
     </div>
+    <div className="container-fluid">
+      <div className="row">
+        <div className="col-md-12 button-div">
+        <Link to='/artwork'> <button className="btn btn-default btn-to-art">View artwork</button> </Link>
+        </div>
+      </div>
     </div>
-
   </div>
 )
 
