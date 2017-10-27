@@ -18,6 +18,11 @@ const Art = () => (
         <img className="art-image" src={require('./icons/artwork/two-cells.png')} />
       </div>
     </div>
+    <div className="row">
+      <div className="col-md-12 col-lg-12 art-column">
+        <img className="art-image" src={require('./icons/artwork/growing_cell_gif.gif')} />
+      </div>
+    </div>
     <div className="art-description">
       <h2> Lines </h2>
       <h4>Lines follow semi-random motion. </h4>
@@ -35,6 +40,20 @@ const Art = () => (
         </div>
       </div>
       <div className="art-description">
+        <h2> Gradient </h2>
+        <h4> Making and changing gradients. </h4>
+        <h5> Made with processing. </h5>
+      </div>
+      <div className="row">
+          <div className="col-md-4 col-lg-4 art-column">
+            <img className="art-image" src={require('./icons/artwork/gradient_gif.gif')} />
+            <img className="art-image" src={require('./icons/artwork/color_gradient_gif.gif')} />
+          </div>
+          <div className="col-md-8 col-lg-8 art-column">
+            <img className="art-image" src={require('./icons/artwork/3_gradients.png')} />
+          </div>
+      </div>
+      <div className="art-description">
         <h2> Fractals </h2>
         <h4> By entering the number of splits a fractal tree is rendered. </h4>
         <h5> Made with processing. </h5>
@@ -50,7 +69,7 @@ const Art = () => (
             <img className="art-image" src={require('./icons/artwork/large-fractal.png')} />
           </div>
         </div>
-  </div>
+      </div>
   </div>
 )
 
