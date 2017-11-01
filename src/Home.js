@@ -12,8 +12,8 @@ const Home = () => (
     <img id="bg-truck" className="header-image img-responsive" src={require('./icons/portfolio-bg.jpg')} />
       <div className="overlay">
         <div className="overlay-textbox">
-          <h2 className="overlay-text"> Looking for someone who is passionate about both design and development? </h2>
-          <h1 className="hello" >Hello, its me. </h1>
+          <h2 className="overlay-text"> Looking for someone who&#39;s passionate about both design and development? </h2>
+          <h1 className="hello" >Hello, it&#39;s me. </h1>
           <Link to='/contact'> <button className="btn btn-default btn-sign">Contact</button> </Link>
         </div>
       </div>

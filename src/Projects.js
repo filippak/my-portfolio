@@ -64,7 +64,7 @@ const Projects = () => (
         <div className="row info-row">
           <div className="col-md-6 timeline-box">
             <h4> Timeline </h4>
-              <h6>Starup idea by a friend that Im helping to implement</h6>
+              <h6>Starup idea by a friend that I&#39;m helping to implement</h6>
               <h6> Fall 2017 </h6>
           </div>
           <div className="col-md-6">

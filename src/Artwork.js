@@ -7,7 +7,7 @@ const Art = () => (
   <div className="container-fluid container-artwork">
   <div className="art-description">
     <h2> Cell </h2>
-    <h4>The cell grows, ages and splits over the course of time. </h4>
+    <h4>The cell grows, ages and splits. </h4>
     <h5> Made with processing. </h5>
   </div>
     <div className="row">
