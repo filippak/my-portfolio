@@ -5,6 +5,29 @@ import './style/Projects.css';
 const Projects = () => (
   <div className="Projects">
 
+  <div className="container-fluid projects-container">
+  <div className="project-header-text">
+    <h2> NRAA </h2>
+    <h3>Application for post delivery to update residential information. Mobile view as progressive web app.</h3>
+  </div>
+    <div className="row project-row">
+      <div className="col-md-6 project-description">
+      <div className="row info-row">
+        <div className="col-md-6 timeline-box">
+          <h4> Timeline </h4>
+            <h6>Consulting project Feb-May 2018</h6>
+        </div>
+        <div className="col-md-6">
+          <h4> Skills used </h4>
+          <h6>React using Redux, Sketch, Swagger</h6>
+        </div>
+      </div>
+      </div>
+        <div className="col-md-6">
+          <img className="img-responsive project-image" src={require('./icons/nraa.png')} />
+        </div>
+    </div>
+  </div>
     <div className="container-fluid projects-container">
     <div className="project-header-text">
       <h2> Sign Along </h2>
