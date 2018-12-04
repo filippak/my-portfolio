@@ -24,7 +24,7 @@ const Projects = () => (
       </div>
       </div>
         <div className="col-md-6">
-          <img className="img-responsive project-image" src={require('./icons/nraa.png')} />
+          <img className="img-responsive project-image" src={require('./icons/nraa-app.png')} />
         </div>
     </div>
   </div>
